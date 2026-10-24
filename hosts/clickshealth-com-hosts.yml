@@ -1,0 +1,119 @@
+generated: '2026-10-24'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 7
+  own: 6
+  other_domain: 1
+  platform: 0
+  roles:
+  - api
+  - docs
+  - other
+  - portal
+  - website
+hosts:
+- host: api.clickshealth.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: clickshealth.com
+  role: api
+  relation: own
+- host: app.clickshealth.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - spec-found
+  - contract-discovery
+  - well-known
+  types:
+  - DeveloperPortal
+  serves:
+  - docs
+  - spec
+  registrable_domain: clickshealth.com
+  role: portal
+  relation: own
+- host: clickshealth.com
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Compliance
+  - StatusPage
+  - Security
+  - ChangeLog
+  - Website
+  - Documentation
+  - GettingStarted
+  - Blog
+  - TermsOfService
+  - PrivacyPolicy
+  serves:
+  - docs
+  - hosting
+  vendor: vercel
+  registrable_domain: clickshealth.com
+  role: website
+  relation: own
+- host: dev.clickshealth.com
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: clickshealth.com
+  role: other
+  relation: own
+- host: docs.clickshealth.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - namespace-probe
+  - docs-index
+  - spec-found
+  - contract-discovery
+  - well-known
+  types:
+  - APIReference
+  serves:
+  - docs
+  - spec
+  title: Clicks Agents API - Clicks API docs
+  status: 200
+  registrable_domain: clickshealth.com
+  role: docs
+  relation: own
+- host: mintlify.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: mintlify.com
+  role: other
+  relation: other-domain
+- host: trust.clickshealth.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: clickshealth.com
+  role: other
+  relation: own

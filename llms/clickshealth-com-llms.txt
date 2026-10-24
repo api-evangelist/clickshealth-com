@@ -1,0 +1,22 @@
+# Clicks API docs
+
+> Run Clicks agents from your own code with the public API.
+
+- [Clicks Agents API](https://docs.clickshealth.com/index.md): Run your configured agents programmatically: create an agent run, then poll its status and read the transcript.
+- [Quickstart](https://docs.clickshealth.com/quickstart.md): Create your first run and read its transcript in about five minutes.
+- [Authentication](https://docs.clickshealth.com/authentication.md): How API keys work and how to send them.
+- [Agent lifecycle and polling](https://docs.clickshealth.com/agent-lifecycle.md): What loop_status means and how to poll for completion.
+- [Sending files](https://docs.clickshealth.com/files.md): Attach files to a run and reference them from the input.
+- [Introduction](https://docs.clickshealth.com/api/introduction.md): The Clicks Agents API is a small REST API: JSON in, JSON out.
+- [Errors and retries](https://docs.clickshealth.com/api/errors.md): Every status the API returns and what to do about it.
+- [Create an agent run](https://docs.clickshealth.com/api/create-an-agent-run.md): Start a new agent run from the API key's agent.
+- [Get an agent run](https://docs.clickshealth.com/api/get-an-agent-run.md): Return an agent run's status and transcript.
+- [Download the OpenAPI schema](https://docs.clickshealth.com/api/download-the-openapi-schema.md): Return the OpenAPI 3.1 document that describes this API.
+
+## OpenAPI Specs
+
+- [openapi.mintlify](/openapi.mintlify.json)
+- [openapi.public](/openapi.public.json)
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

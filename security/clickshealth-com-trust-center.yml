@@ -1,0 +1,18 @@
+generated: '2026-10-24'
+method: searched
+probe: true
+source: https://clickshealth.com/security
+url: https://clickshealth.com/security
+certifications:
+- SOC 2
+- HIPAA
+- GDPR
+evidence:
+- source: https://clickshealth.com/security
+  keywords:
+  - soc 2
+  - soc2
+  - hipaa
+  - trust center
+  - compliance certification
+  - gdpr

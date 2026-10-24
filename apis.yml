@@ -1,25 +1,88 @@
 aid: clickshealth-com
+
 name: Clicks
-description: 'Clicks is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by y-combinator) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://clickshealth.com/opengraph-image?32c67500ac68fcb9
+
+description: 'Clicks Health provides AI-driven automation for revenue cycle management in healthcare, offering solutions for patient access, prior authorization, claims and denials, and repetitive workflow automation. Their platform integrates with existing EHR and payer systems to streamline processes, reduce manual effort, and improve financial outcomes for providers.'
+
 url: https://raw.githubusercontent.com/api-evangelist/clickshealth-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- Healthcare
+- AI
+- Revenue Cycle Management
+- Automation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- y-combinator
+
 common:
+- type: Compliance
+  url: https://clickshealth.com/security
+- type: Authentication
+  url: authentication/clickshealth-com-authentication.yml
+- type: LLMsTxt
+  url: llms/clickshealth-com-llms.txt
+- type: AgentCard
+  url: a2a/clickshealth-com-a2a.yml
+- type: WellKnown
+  url: well-known/clickshealth-com-well-known.yml
+- type: Hosts
+  url: hosts/clickshealth-com-hosts.yml
+- type: Vendors
+  url: vendors/clickshealth-com-vendors.yml
+- type: StatusPage
+  url: https://clickshealth.com/status
+- type: Security
+  url: https://clickshealth.com/security
+- type: ChangeLog
+  url: https://clickshealth.com/changelog
+- type: APIReference
+  url: https://docs.clickshealth.com/api/introduction
+- type: TrustCenter
+  url: security/clickshealth-com-trust-center.yml
+- type: DomainSecurity
+  url: security/clickshealth-com-domain-security.yml
 - type: Website
   url: https://clickshealth.com/
+- type: DeveloperPortal
+  url: https://app.clickshealth.com/
+- type: Documentation
+  url: https://clickshealth.com/about
+- type: GettingStarted
+  url: https://clickshealth.com/guides/how-to-choose-your-first-ai-workflow
+- type: Blog
+  url: https://clickshealth.com/news
+- type: TermsOfService
+  url: https://clickshealth.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://clickshealth.com/privacy-policy
+
+apis: []
+
+x-backed-by:
+- y-combinator
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 19
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

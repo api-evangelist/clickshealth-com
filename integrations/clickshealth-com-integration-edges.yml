@@ -1,0 +1,22 @@
+generated: '2026-10-24'
+method: none
+source:
+- https://zapier.com/apps/clickshealth-com/integrations
+- https://zapier.com/apps/clickshealth/integrations
+- https://zapier.com/apps/clicks/integrations
+- https://n8n.io/integrations/clickshealth-com/
+- https://n8n.io/integrations/clickshealth/
+- https://composio.dev/toolkits/clickshealth-com
+- https://monid.ai/tools/clickshealth-com
+checked:
+- https://composio.dev/toolkits/clickshealth-com
+- https://monid.ai/tools/clickshealth-com
+- https://n8n.io/integrations/clickshealth-com/
+- https://n8n.io/integrations/clickshealth/
+- https://zapier.com/apps/clicks/integrations
+- https://zapier.com/apps/clickshealth-com/integrations
+- https://zapier.com/apps/clickshealth/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
